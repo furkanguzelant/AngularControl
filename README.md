@@ -1,5 +1,16 @@
 # Continuous Angular Control in Text-to-Image Generation via Geometric Token Encoding
 
+**Furkan Güzelant, Basavaraj Sunagad, Aysegul Dundar, Adam Kortylewski**
+
+WACV 2027 · [Project page](https://furkanguzelant.github.io/angular_control/)
+
+<p align="center">
+  <img src="assets/teaser_clock.gif" width="100%" alt="Clock time control from 00:00 to 11:50 for four clock styles"><br>
+  <img src="assets/teaser_fraction.gif" width="100%" alt="Fraction control from 10 to 350 degrees for four objects">
+</p>
+<p align="center"><em>Clock times swept over 12 hours and circular fractions swept from 10° to 350°,
+each generated from the text prompt and the target value only.</em></p>
+
 Inference code for our WACV 2027 paper. A target angular quantity — an analog clock time or a
 circular fraction — is encoded with a periodic (sin/cos) encoding, mapped by a small network to
 geometric tokens, and inserted into the prompt of a LoRA-adapted Stable Diffusion 2.1. No bounding
@@ -72,8 +83,9 @@ image.save("clock_0337.png")
 ## Citation
 
 ```bibtex
-@inproceedings{angularcontrol2027,
+@inproceedings{guzelant2027angularcontrol,
   title     = {Continuous Angular Control in Text-to-Image Generation via Geometric Token Encoding},
+  author    = {G{\"u}zelant, Furkan and Sunagad, Basavaraj and Dundar, Aysegul and Kortylewski, Adam},
   booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
   year      = {2027}
 }
