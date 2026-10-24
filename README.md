@@ -79,6 +79,11 @@ image.save("clock_0337.png")
 }
 ```
 
+## License
+
+The code in this repository is released under the [Apache License 2.0](LICENSE).
+The trained weights are derived from Stable Diffusion 2.1 and are subject to its license.
+
 ## Acknowledgements
 
 The token-injection approach builds on Compass Control (Parihar et al., CVPR 2025). The LoRA layers are adapted from
